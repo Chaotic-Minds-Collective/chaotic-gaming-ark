@@ -1,7 +1,17 @@
-# Chaotic Gaming — ARK: Survival Evolved Integration
+# Chaotic Gaming — ARK: Survival Evolved Adapter
 
-Future adapter for ARK: Survival Evolved clusters and maps. Prepared for a later rollout after ATLAS and 7 Days to Die foundations are stable.
+Future integration workspace for ARK: Survival Evolved. ARK follows the same central player identity and Core API architecture while keeping game-specific survivors, maps, tribes, sessions and transfers in its own data schema.
 
-Planned concepts include clusters, maps, survivors/characters, tribes, sessions, transfers and server status. Keep identifiers scoped to game, cluster and server; do not assume one survivor per player.
+## Planned scope
+- Cluster and map/server registration
+- Survivor identity mapping
+- Tribe membership and player sessions
+- Transfer lifecycle events
+- Scoped server administration
+- Entitlement/reward delivery with idempotent retries
 
-No ARK server integration, mod installation or deployment is implemented.
+## Compatibility
+ARK: Survival Evolved and ARK: Survival Ascended are distinct targets. This repository currently targets Survival Evolved only. Exact server build, mod loader, RCON behavior and available APIs must be verified before implementation.
+
+## Status
+Future scaffold only. No ARK server integration is active.
