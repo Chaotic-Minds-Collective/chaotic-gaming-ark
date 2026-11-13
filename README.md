@@ -1,6 +1,6 @@
-# CMG ARK Plugin — Survival Evolved Adapter
+# CMG ARK Plugin
 
-The **Chaotic Minds Gaming (CMG) ARK Plugin** is a future integration workspace for ARK: Survival Evolved. ARK follows the same central player identity and Core API architecture while keeping game-specific survivors, maps, tribes, sessions and transfers in its own data schema.
+A future integration workspace for ARK: Survival Evolved within Chaotic Minds Gaming (CMG). ARK follows the same central player identity and Core API architecture while keeping game-specific survivors, maps, tribes, sessions and transfers in its own data schema.
 
 ## Planned scope
 - Cluster and map/server registration
